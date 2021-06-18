@@ -26,7 +26,7 @@ class Alat {
 
 final List<Alat> alats = [
   Alat(
-      imageUrl: 'assets/images/Alat0.png',
+      imageUrl: 'assets/images/plant0.png',
       title: 'Aloe Vera',
       name: 'Aloe Vera',
       category: 'Outdoor',
@@ -38,7 +38,7 @@ final List<Alat> alats = [
       temp: '18-25 °C',
       water: 'Setiap 2 Hari'),
   Alat(
-    imageUrl: 'assets/images/Alat1.png',
+    imageUrl: 'assets/images/plant1.png',
     title: 'Monstera',
     name: 'Cool Alat',
     category: 'Indoor',
@@ -51,7 +51,7 @@ final List<Alat> alats = [
     water: 'Setiap 2 Hari',
   ),
   Alat(
-    imageUrl: 'assets/images/Alat2.png',
+    imageUrl: 'assets/images/plant2.png',
     title: 'Lavandula angustifolia',
     name: 'Lavandula angustifolia',
     category: 'Outdoor',
@@ -64,7 +64,7 @@ final List<Alat> alats = [
     water: 'Setiap 2 Hari',
   ),
   Alat(
-    imageUrl: 'assets/images/Alat3.png',
+    imageUrl: 'assets/images/plant3.png',
     name: 'Monstera Deliciousa',
     title: 'Monstera Deliciousa',
     category: 'Outdoor',

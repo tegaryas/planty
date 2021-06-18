@@ -3,8 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:planty/Screens/HomeScreen/HeaderHomePage.dart';
 import 'package:planty/constant.dart';
 import 'package:planty/models/category_model.dart';
-import 'package:planty/screens/DetailScreen/DetailScreen.dart';
-import 'package:planty/screens/HomeScreen/Categories.dart';
 import 'package:planty/screens/HomeScreen/ItemCard.dart';
 import 'package:planty/models/plant_model.dart';
 
@@ -83,15 +81,19 @@ class _HomePageState extends State<HomePage> {
                     mainAxisSpacing: 10,
                     crossAxisSpacing: 10),
                 itemBuilder: (context, index) => ItemCard(
-                  imageUrl: selectedIndexList[index].toString(),
-                  // press: () => Navigator.push(
-                  //   context,
-                  //   MaterialPageRoute(
-                  //     builder: (context) => DetailScreen(
-                  //       plant: plants[index],
-                  //     ),
-                  //   ),
-                  // ),
+                  imageUrl: selectedIndexList[index].imageUrl,
+                  name: selectedIndexList[index].name,
+                  title: selectedIndexList[index].title,
+                  category: selectedIndexList[index].category,
+                  price: selectedIndexList[index].price,
+                  press: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => DetailScreen(
+                        plant: plants[index],
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ),

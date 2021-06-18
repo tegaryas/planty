@@ -26,7 +26,7 @@ class Lain {
 
 final List<Lain> lains = [
   Lain(
-      imageUrl: 'assets/images/Lain0.png',
+      imageUrl: 'assets/images/plant0.png',
       title: 'Aloe Vera',
       name: 'Aloe Vera',
       category: 'Outdoor',
@@ -38,7 +38,7 @@ final List<Lain> lains = [
       temp: '18-25 °C',
       water: 'Setiap 2 Hari'),
   Lain(
-    imageUrl: 'assets/images/Lain1.png',
+    imageUrl: 'assets/images/plant1.png',
     title: 'Monstera',
     name: 'Cool Lain',
     category: 'Indoor',
@@ -51,25 +51,12 @@ final List<Lain> lains = [
     water: 'Setiap 2 Hari',
   ),
   Lain(
-    imageUrl: 'assets/images/Lain2.png',
+    imageUrl: 'assets/images/plant2.png',
     title: 'Lavandula angustifolia',
     name: 'Lavandula angustifolia',
     category: 'Outdoor',
     price: 352000,
     size: 'Kecil',
-    description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta risus id urna luctus efficitur. Suspendisse vulputate faucibus est, a vehicula sem eleifend quis.',
-    sun: '5-9 h',
-    temp: '18-25 °C',
-    water: 'Setiap 2 Hari',
-  ),
-  Lain(
-    imageUrl: 'assets/images/Lain3.png',
-    name: 'Monstera Deliciousa',
-    title: 'Monstera Deliciousa',
-    category: 'Outdoor',
-    price: 902000,
-    size: 'Besar',
     description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta risus id urna luctus efficitur. Suspendisse vulputate faucibus est, a vehicula sem eleifend quis.',
     sun: '5-9 h',

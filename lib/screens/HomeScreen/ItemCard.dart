@@ -4,17 +4,11 @@ import 'package:intl/intl.dart';
 
 class ItemCard extends StatelessWidget {
   final Function press;
-  final List product;
   final String imageUrl;
   final String title;
   final String name;
   final String category;
   final int price;
-  final String size;
-  final String description;
-  final String sun;
-  final String temp;
-  final String water;
   const ItemCard({
     Key key,
     this.press,
@@ -23,12 +17,6 @@ class ItemCard extends StatelessWidget {
     this.name,
     this.category,
     this.price,
-    this.size,
-    this.description,
-    this.sun,
-    this.temp,
-    this.water,
-    this.product,
   }) : super(key: key);
 
   @override

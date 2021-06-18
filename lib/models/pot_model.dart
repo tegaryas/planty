@@ -26,7 +26,7 @@ class Pot {
 
 final List<Pot> pots = [
   Pot(
-      imageUrl: 'assets/images/Pot0.png',
+      imageUrl: 'assets/images/plant0.png',
       title: 'Aloe Vera',
       name: 'Aloe Vera',
       category: 'Outdoor',
@@ -38,7 +38,7 @@ final List<Pot> pots = [
       temp: '18-25 °C',
       water: 'Setiap 2 Hari'),
   Pot(
-    imageUrl: 'assets/images/Pot1.png',
+    imageUrl: 'assets/images/plant1.png',
     title: 'Monstera',
     name: 'Cool Pot',
     category: 'Indoor',
@@ -51,7 +51,7 @@ final List<Pot> pots = [
     water: 'Setiap 2 Hari',
   ),
   Pot(
-    imageUrl: 'assets/images/Pot2.png',
+    imageUrl: 'assets/images/plant2.png',
     title: 'Lavandula angustifolia',
     name: 'Lavandula angustifolia',
     category: 'Outdoor',
@@ -64,7 +64,7 @@ final List<Pot> pots = [
     water: 'Setiap 2 Hari',
   ),
   Pot(
-    imageUrl: 'assets/images/Pot3.png',
+    imageUrl: 'assets/images/plant3.png',
     name: 'Monstera Deliciousa',
     title: 'Monstera Deliciousa',
     category: 'Outdoor',
