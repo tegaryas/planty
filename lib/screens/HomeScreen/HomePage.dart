@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:planty/Screens/HomeScreen/HeaderHomePage.dart';
 import 'package:planty/constant.dart';
 import 'package:planty/models/category_model.dart';
+import 'package:planty/screens/DetailScreen/DetailScreen.dart';
 import 'package:planty/screens/HomeScreen/ItemCard.dart';
 import 'package:planty/models/plant_model.dart';
 
@@ -86,14 +87,11 @@ class _HomePageState extends State<HomePage> {
                   title: selectedIndexList[index].title,
                   category: selectedIndexList[index].category,
                   price: selectedIndexList[index].price,
-                  press: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => DetailScreen(
-                        plant: plants[index],
-                      ),
-                    ),
-                  ),
+                  size: selectedIndexList[index].size,
+                  description: selectedIndexList[index].description,
+                  sun: selectedIndexList[index].sun,
+                  temp: selectedIndexList[index].temp,
+                  water: selectedIndexList[index].water,
                 ),
               ),
             ),

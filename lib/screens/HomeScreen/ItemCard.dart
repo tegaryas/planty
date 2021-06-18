@@ -1,28 +1,52 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
+import 'package:planty/screens/DetailScreen/DetailScreen.dart';
 
 class ItemCard extends StatelessWidget {
-  final Function press;
   final String imageUrl;
   final String title;
   final String name;
   final String category;
   final int price;
+  final String size;
+  final String description;
+  final String sun;
+  final String temp;
+  final String water;
   const ItemCard({
     Key key,
-    this.press,
     this.imageUrl,
     this.title,
     this.name,
     this.category,
     this.price,
+    this.size,
+    this.description,
+    this.sun,
+    this.temp,
+    this.water,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: press,
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => DetailScreen(
+            imageUrlDetail: imageUrl,
+            titleDetail: title,
+            categoryDetail: category,
+            priceDetail: price,
+            sizeDetail: size,
+            descriptionDetail: description,
+            sunDetail: sun,
+            tempDetail: temp,
+            waterDetail: water,
+          ),
+        ),
+      ),
       child: Container(
         decoration: BoxDecoration(
           color: Colors.lightGreen,
